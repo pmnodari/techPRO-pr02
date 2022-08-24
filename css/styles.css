@@ -22,6 +22,11 @@ html {
 body{
     font-family: var(--fuentePrincipal);
 }
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
 h1, h2, h3{
     font-weight: 900;
     font-family: var(--fuenteSecundaria);
@@ -43,4 +48,15 @@ img{
 /* Utilidades */
 .text-center{
     text-align: center;
+}
+
+/* HEADER */
+.header{
+
+}
+.contenido-header{
+
+}
+.imagen-header{
+    
 }
