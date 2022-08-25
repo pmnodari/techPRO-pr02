@@ -1,0 +1,6 @@
+1- Se realiza la carga de las fuentes, paleta de colores, en las custom properties.
+2-Maquetacion del Header.
+3-Se usa picture para darle mejor performance a la pagina. Utilizando la imagen que sea compatible con el navegador.
+4-Se le da Estilo al texto, alternando aquellos con media queries. Se agrega uan clase de degradado para darle estilo al heading. Este sera como una especie de utilidad.
+5-Dicho degradado se utiliza un linear-gradient() en la propiedad background. Pide 3 parametros: direccion, color y donde empieza, y color y donde termina. Ambos en porcentajes.
+Pero para que se aplique al texto, se tiene que usar la propiedad background-clip: text. Esta propiedad funciona en firefox, pero no en Google, salvo con el prefijo -webkit-
