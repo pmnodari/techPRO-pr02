@@ -4,3 +4,4 @@
 4-Se le da Estilo al texto, alternando aquellos con media queries. Se agrega uan clase de degradado para darle estilo al heading. Este sera como una especie de utilidad.
 5-Dicho degradado se utiliza un linear-gradient() en la propiedad background. Pide 3 parametros: direccion, color y donde empieza, y color y donde termina. Ambos en porcentajes.
 Pero para que se aplique al texto, se tiene que usar la propiedad background-clip: text. Esta propiedad funciona en firefox, pero no en Google, salvo con el prefijo -webkit-
+7-Se realiza el diseño de los iconos, aqui se utiliza flex, pero tambien va muy bien grid. Tener en cuenta como se va separando por div, en funcion de lo que se quiera lograr. Usamos doble flex dado que se quiere ordenar cada elemento en su conjunto como su subconjunto.
