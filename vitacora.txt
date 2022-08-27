@@ -5,3 +5,10 @@
 5-Dicho degradado se utiliza un linear-gradient() en la propiedad background. Pide 3 parametros: direccion, color y donde empieza, y color y donde termina. Ambos en porcentajes.
 Pero para que se aplique al texto, se tiene que usar la propiedad background-clip: text. Esta propiedad funciona en firefox, pero no en Google, salvo con el prefijo -webkit-
 7-Se realiza el diseño de los iconos, aqui se utiliza flex, pero tambien va muy bien grid. Tener en cuenta como se va separando por div, en funcion de lo que se quiera lograr. Usamos doble flex dado que se quiere ordenar cada elemento en su conjunto como su subconjunto.
+8-Seccion informacion. Aqui se diseña un bg. Por lo general, estos bg se extienden a lo largo de toda la pantalla, por lo que no estara dentro de la clase contenedor.
+9-Main Modelos. Tener en cuenta aqui que la idea de negocio es vender audifonos, por la tanto, este sera el main de la pagina.
+Algo a tener en cuenta es que cuando cambiamos de direccion con flex, esto no cambia el criterio para elegir los selectores firt o last of type. Estos siempre miran la ubicacion del HTML y no del Flex.
+10- El background-position posee dos valores, uno del eje x, se mueve la imagen en direccion horizontal, y el eje y, que mueve la imagen en direccion vertical.
+11-Para laptop usamos display grid. Tenemos dos columnas, y como el minimo de alto es de 20rem, esto lo especificamos en el grid-template-rows, para darle la misma altura. 
+A partir de ahi, realizamos el Media Querie, quitando el margin-bottom, dado que cambia la posicion del ultimo elemento modelo-z.
+12-Agregamos la animacion. Se utiliza el transform en el hover, se puede ver esta propiedad, y las multiples animaciones que se puede utilizar, ya sea de una vez o multiples. Y en la caja modelo se agrega la propiedad transition. Esta tiene una variante transition y el valor all y la duracion. Otra alternativa seria usar transition-property, y transition-duration. Con la primera dererminamos a que elemento darle animacion, en este caso a transform, background-size, y background-position.
