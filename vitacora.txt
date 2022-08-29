@@ -15,3 +15,6 @@ A partir de ahi, realizamos el Media Querie, quitando el margin-bottom, dado que
 13-Creación del Newsletter. Aunque haya un solo input siempre es recomendable que este dentro de un <form></form>.
 Se trabaja sobre el bg de la imagen, y se usa el devTools y bg-position para darle la ubicacion deseada.
 Se pone de ejemplo en el boton submit la direccion de Google a efectos practicos.
+14-Mejoramiento de performance con la carga de imagenes de distintos formato, segun compatibilidad con los navegadores. Se usa un script con una libreria externa.
+Lo que hace esta libreria es crear unas clases avif, webp, notavif, y notwebp, en todo el documento y segun la el navegador es el formato de imagenes que aplica. Las cuales ya tenemos en nuestro proyecto. De esta manera se logra una mejor carga y performance de la pagina.
+La libreria es el codigo en la carpeta imagenes.js
