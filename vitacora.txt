@@ -12,3 +12,6 @@ Algo a tener en cuenta es que cuando cambiamos de direccion con flex, esto no ca
 11-Para laptop usamos display grid. Tenemos dos columnas, y como el minimo de alto es de 20rem, esto lo especificamos en el grid-template-rows, para darle la misma altura. 
 A partir de ahi, realizamos el Media Querie, quitando el margin-bottom, dado que cambia la posicion del ultimo elemento modelo-z.
 12-Agregamos la animacion. Se utiliza el transform en el hover, se puede ver esta propiedad, y las multiples animaciones que se puede utilizar, ya sea de una vez o multiples. Y en la caja modelo se agrega la propiedad transition. Esta tiene una variante transition y el valor all y la duracion. Otra alternativa seria usar transition-property, y transition-duration. Con la primera dererminamos a que elemento darle animacion, en este caso a transform, background-size, y background-position.
+13-Creación del Newsletter. Aunque haya un solo input siempre es recomendable que este dentro de un <form></form>.
+Se trabaja sobre el bg de la imagen, y se usa el devTools y bg-position para darle la ubicacion deseada.
+Se pone de ejemplo en el boton submit la direccion de Google a efectos practicos.
